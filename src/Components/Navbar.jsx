@@ -41,7 +41,7 @@ const Navbar = () => {
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
               Home
-            </Link>
+            </Link>  
             <Link
               to="about"
               spy={true}

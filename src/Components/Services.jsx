@@ -31,8 +31,11 @@ const Services = () => {
       </div>
       <div className=" flex flex-col lg:flex-row gap-5 pt-14">
         <ServicesCard icon={icon1} title="Lab Test" />
-        <ServicesCard icon={icon2} title="Health Check" />
+        <ServicesCard icon={icon2} title="Surgical Services" />
         <ServicesCard icon={icon3} title="Heart Health" />
+        <ServicesCard icon={icon3} title="Pharmacy Sevices" />
+        <ServicesCard icon={icon3} title="Speciality care" />
+        <ServicesCard icon={icon3} title="Support Services" />
       </div>
     </div>
   );

@@ -16,6 +16,7 @@ import doc6 from "../assets/img/doc6.jpg";
 
 
 
+
 const Doctors = () => {
   const data = [
     {
@@ -45,9 +46,10 @@ const Doctors = () => {
     },
     {
       img: doc6,
-      name: "Dr. Olivia Martinez",
+      name: "Dr. Krishna shankar",
       specialties: "Ophthalmologist",
     },
+   
   ];
 
   const slider = useRef(null);
